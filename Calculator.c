@@ -28,5 +28,9 @@ int main()
 			total = number1 / number2;
 			printf("%d %c %d = %d", number1, sign, number2, total);
 		}
+	else
+		{
+			printf("Wrong input.");
+		}
 return 0;
 }
